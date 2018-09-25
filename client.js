@@ -26,6 +26,8 @@ $(document).ready(function(){
 
         success: function(dat){
 
+            console.log(dat);
+
             data = JSON.parse(dat);
 
             var path=[];
