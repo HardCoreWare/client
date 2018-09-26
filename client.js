@@ -12,7 +12,7 @@ $(document).ready(function(){
 
     };
 
-    var map = new Map("map",[19,-99],15);
+    var map = new Map("map",[19,-99],15,'satellite');
 
     $.ajax({
 

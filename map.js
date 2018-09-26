@@ -1,12 +1,14 @@
 class Map {
 
-    constructor(divId,point,zoom){
+    constructor(divId,point,zoom,typeId){
 
         this.map = new google.maps.Map(document.getElementById(divId), {
 
             center: {lat: point[0], lng: point[1]},
     
-            zoom: zoom
+            zoom: zoom,
+
+            mapTypeId: typeId
 
         });
 
